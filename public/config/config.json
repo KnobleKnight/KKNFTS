@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xafcad3f0ec5cee5d56f660cac999bf93a12442b8",
+  "SCAN_LINK": "https://ftmscan.com/address/0xafcad3f0ec5cee5d56f660cac999bf93a12442b8",
+  "NETWORK": {
+    "NAME": "Fantom",
+    "SYMBOL": "FTM",
+    "ID": 250
+  },
+  "NFT_NAME": "The Knoble Knights NFT",
+  "SYMBOL": "KKNFT",
+  "MAX_SUPPLY": 3333,
+  "WEI_COST": 4000000000000000000,
+  "DISPLAY_COST": 4,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Discord",
+  "MARKETPLACE_LINK": "https://discord.gg/s44gC3HsSs",
+  "SHOW_BACKGROUND": true
+}
