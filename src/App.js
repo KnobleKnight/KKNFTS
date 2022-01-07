@@ -13,10 +13,10 @@ export const StyledButton = styled.button`
   border-radius: 50px;
   border: none;
   background-color: var(--secondary);
-  padding: 10px;
+  padding: 15px;
   font-weight: bold;
   color: var(--secondary-text);
-  width: 100px;
+  width: 135px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `Good Job Lord, the ${CONFIG.NFT_NAME} is yours! go visit your MetaMask wallet to import and view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit MetaMask to import it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -205,7 +205,7 @@ function App() {
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 20 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
@@ -225,7 +225,7 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 40,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
@@ -239,7 +239,7 @@ function App() {
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+                {truncate(CONFIG.CONTRACT_ADDRESS, 40)}
               </StyledLink>
             </s.TextDescription>
             <span
@@ -249,17 +249,17 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
+                  window.open(CONFIG.MARKETPLACE1_LINK, "_blank");
                 }}
                 style={{
-                  margin: "5px",
+                  margin: "10px",
                 }}
               >
-                Roadmap
+                Discord
               </StyledButton>
               <StyledButton
                 style={{
-                  margin: "5px",
+                  margin: "10px",
                 }}
                 onClick={(e) => {
                   window.open(CONFIG.MARKETPLACE_LINK, "_blank");
