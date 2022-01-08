@@ -12,7 +12,9 @@
   "WEI_COST": 4000000000000000000,
   "DISPLAY_COST": 4,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Discord",
-  "MARKETPLACE_LINK": "https://discord.gg/s44gC3HsSs",
+  "MARKETPLACE1": "Discord",
+  "MARKETPLACE1_LINK":"https://discord.gg/RXgdCkbANC",
+  "MARKETPLACE": "@Knoble_Knight",
+  "MARKETPLACE_LINK": "https://twitter.com/Knoble_Knight",
   "SHOW_BACKGROUND": true
 }
