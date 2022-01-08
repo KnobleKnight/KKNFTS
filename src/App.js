@@ -255,6 +255,7 @@ function App() {
                   margin: "10px",
                 }}
                 >
+                 Discord
               </StyledButton>
               <StyledButton
                 style={{
