@@ -255,7 +255,17 @@ function App() {
                   margin: "10px",
                 }}
                 >
-                 Discord
+                Discord
+              </StyledButton>
+              <StyledButton
+                style={{
+                  margin: "10px",
+                }}
+                onClick={(e) => {
+                  window.open(CONFIG.MARKETPLACE2_LINK, "_blank");
+                }}
+              >
+                PaintSwap
               </StyledButton>
               <StyledButton
                 style={{
@@ -264,7 +274,7 @@ function App() {
                 onClick={(e) => {
                   window.open(CONFIG.MARKETPLACE_LINK, "_blank");
                 }}
-              >
+                >
                 {CONFIG.MARKETPLACE}
               </StyledButton>
             </span>
@@ -415,7 +425,8 @@ function App() {
             }}
           >
             Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet). Happy Minting.
+            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+            Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
